@@ -41,7 +41,7 @@ process blast {
  */
 process extract {
 
-    publishDir "${params.outdir}"
+    publishDir "${params.outdir}" , mode: 'copy'
 
     input:
     tuple val(id), path('top_hits') from hits_ch
