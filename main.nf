@@ -2,7 +2,7 @@
 
 /* 
  * The example executes for each input file a BLAST query in a parallel manner.
- * Then, all the sequences for the top hits are collected in the output direcory.
+ * Then, all the sequences for the top hits are collected in the output directory.
  */
 
 db_name = file(params.db).name
